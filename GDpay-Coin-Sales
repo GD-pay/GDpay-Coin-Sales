@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDPay - Coin Sales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .coin-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .coin {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 200px;
+        }
+        .buy-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .buy-btn:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to GDPay Coin Sales</h1>
+        <p>Buy and sell digital coins securely, including Pi and other cryptocurrencies.</p>
+        <p><strong>Looking for where to sell Pi in Nigeria?</strong> Visit <a href="https://wa.me/2348114845222" target="_blank" rel="noopener noreferrer">GDPay</a> for the best exchange rates.</p>
+        <div class="coin-list">
+            <div class="coin">
+                <h2>Pi Network</h2>
+                <p>Secure & Decentralized</p>
+                <a href="https://wa.me/2348114845222" class="buy-btn" target="_blank" rel="noopener noreferrer">Buy Pi</a>
+            </div>
+            <div class="coin">
+                <h2>Bitcoin</h2>
+                <p>Leading Cryptocurrency</p>
+                <a href="https://wa.me/2348114845222" class="buy-btn" target="_blank" rel="noopener noreferrer">Buy BTC</a>
+            </div>
+            <div class="coin">
+                <h2>Ethereum</h2>
+                <p>Smart Contracts Enabled</p>
+                <a href="https://wa.me/2348114845222" class="buy-btn" target="_blank" rel="noopener noreferrer">Buy ETH</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
